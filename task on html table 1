@@ -1,0 +1,18 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>video document</title>
+</head>
+<body>
+    <video src="as.mp4" controls height="200" width="300" poster="/lagos image.jpg">p</video>
+    <br>
+    <br>
+    <img src="C:\Users\Damilola Raji\Desktop\as.mp4" width="200px" height="300px">
+    <br>
+    <br>
+    <img src="C:\Users\Damilola Raji\Desktop\as.mp4"width="200px" height="300px">
+</body>
+</html>
