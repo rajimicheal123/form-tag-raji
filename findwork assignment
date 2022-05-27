@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <title>document</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+<body>
+    
+<h1 id="head1">heading 1</h1>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+
+
+<h2 id="head2"> heading2</h2>
+<p> great is thy fuulness we thank for all he hSas done we are greateful god is great forever gracious is name for ever</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+
+
+<h3 id="head3"> heading3</h3>
+<p> we are grateful for greatnesss what God is doing he will continue to do things in our life this our life we thank god for it  we are greateful for greatnesss what god is doing he will continue to do ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+
+ 
+<h4 id="head4">heading 4</h4>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+
+<h5 id="head5">heading5</h5>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+
+
+<h6 id="head6">heading6</h6>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for itwe are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+<p>u are welcome to the day of the lord which we are happy about this  day of our life we thank god for it we are grateful for greatnesss what God is doing he will continue to do things in our life this ou</p>
+
+</body>
+</html>
+
+#head1{
+    background-color: #Abadce;
+}
+
+#head2{
+    background-color: #ba2acf;
+}
+
+#head3{
+    background-color: rgb(50, 78, 60);
+}
+
+#head4{
+    background-color: rgb(70, 50, 40);
+}
+
+#head5{ 
+       background-color: hsl(210, 63%, 50%);
+}
+
+#head6{
+    background-color: hsla(210, 63%, 50%, 0.5)
+}
+
+body{
+    background-image: url("lekki.jpg");
+    background-size: 300px;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
