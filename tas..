@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <div class="sign-up-form">
+<h1> sign up now</h1>
+<form>
+<input type="email" class="input-box" placeholder="first name">
+<input type="email" class="input-box" placeholder="last name">
+<input type="email" class="input-box" placeholder="user name">
+<input type="email" class="inputbox" placeholder="phone number">
+<input type="email" class="input-box" placeholder="email">
+<input type="email" class="input-box" placeholder="adress">
+<input type="email" class="input-box" placeholder="password">
+<p> <span> <input type="checkbox"></span> i agree to the terms of services</p>
+<button type="button" class="sign-btn"> sign up</button> </button>
+<hr>
+<p class="or">or</p>
+<button type="button" class="twitter-btn"> login with twitter</button>
+
+</form>
+    </div>
+</body>    
+</html>  
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(lekki.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgb(0, 0, 0 0.3);
+    background-color: rgba(20, 236, 31, 0.3);
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+
+.sign-up-form h1{
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    border-radius: 20px;
+    pad: 10px;
+    margin: 10px 0;
+    width: 100px;
+    border: 1px solid rgba(20, 236, 31);
+}
