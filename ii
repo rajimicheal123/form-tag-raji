@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body>
+    <p class="sail"> welcome to sail virtual</p>
+    <p>css text properties</p>
+    <p>this is an<small>html</small>element</p>
+    <p id="decor"> lorem ipsum dolor sir amet, consectetur itaque</p>
+
+    <h1> welcome mr micheal</h1>
+</body>    
+</html>  
+
+.sail{
+    background-color: rgb(65, 112,223);
+    color: antiquewhite;
+    text-align: center;
+}
+
+#decor{
+     text-decoration:underline;
+    text-decoration-color: brown;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 10px;
+    text-decoration: underline brown dotted 10px; 
+
+    word-spacing: 20px;
+    letter-spacing: 20px;
+
+    text-shadow: 5px 5px 10px red; 
+    text-transform: lowercase;
+}
