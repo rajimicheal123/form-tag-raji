@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma | Webpage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <div class="logo__box">
+          <object data="./logo.svg" type="" class="logo"></object>
+          <p>sail</p>
+        </div>
+        <nav class="nav">
+          <a href="#" class="nav__link-1">Sign In</a>
+          <a href="#" class="nav__link-2">Find help</a>
+        </nav>
+      </header>
+      <section class="hero__section">
+        <div class="hero__content">
+          <h1 class="hero__title">I raji micheal Participated in Sail Intactive Program</h1>
+
+          <p class="hero__text">
+            The primary purpose of the innovation space is to create employment opportunities, inspire grass-roots innovations and build partnerships
+            & networks that will drive economic prosperity and collaboratively solve significant social and business problems.
+          </p>
+          <button class="hero__btn">Thank you</button>
+        </div>
+
+        <div class="profile">
+          <img src="./pic.jpg" alt="Profile photo" class="profile__image" />
+        </div>
+      </section>
+      <section class="update__section">
+        <img src="./pic-group.jpg" alt="Gallery Photo" class="update__image" />
+
+        <div class="update__text">
+          <span class="update__text-quote"> &#8220; </span>
+          <p class="update__desc">
+            SAIL (SENATOR ABIRU INNOVATION LAB) is a unique space that offers cross-functional programmes and opportunities, as well as a basic
+            foundation that can inspire young people in Lagos East (students, graduates, entrepreneurs, job seekers) to gather, learn and create. The
+            space will foster a comfortable and safe environment that will encourage young people to see it as their second home
+          </p>
+          <div class="update__title-box">
+            <h2 class="update__title">SenatorTokunbo Abiru of the Lagos East Constituency,</h2>
+            <span class="update__text-quote">&#8221; </span>
+          </div>
+        </div>
+      </section>
+      <section class="info__section">
+        <div class="">
+          <object data="./phone.svg" type=""></object>
+          <p class="">
+            <span> Give us a call </span>
+            07085089752
+          </p>
+        </div>
+        <div class="">
+          <object data="./mail.svg" type=""></object>
+          <p class="">
+            <span> Send us a message </span>
+            info@irespond.africa
+          </p>
+        </div>
+        <div class="">
+          <object data="./location-pin.svg" type=""></object>
+          <p class="">
+            <span> Office Location </span>
+            371 Borno way Alagomeji Yaba
+          </p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__link">
+          <div class="">
+            <h4 class="footer__logo"><object data="./logo.svg" type=""></object> sail</h4>
+          </div>
+
+          <div class="footer__social">
+            <object class="footer__icon" data="./mail.svg" type=""></object>
+            <object class="footer__icon" data="./iiii.svg" type=""></object>
+            <object class="footer__icon" data="./linkedIn.svg" type=""></object>
+            <object class="footer__icon" data="./facebook.svg" type=""></object>
+          </div>
+        </div>
+
+        <div class="footer__update">
+          <h3 class="footer__title">Company</h3>
+
+          <p>About</p>
+          <p>Careers</p>
+          <p>FAQ</p>
+          <p>Privacy Policy</p>
+        </div>
+        <div class="footer__update">
+          <h3 class="footer__title">Get help</h3>
+
+          <p>Request emergency</p>
+          <p>Find a support group</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
+
+*{
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.header {margin-bottom: 2rem;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.logo__box {
+  display: flex;
+  align-items: center;
+  color: #0134b7b8;
+  font-size: 1.7rem;
+}
+.nav {
+  padding-right: 2rem;
+}
+.nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  padding: 0.7rem 1.4rem 0.7rem;
+  border-radius: 6.52041px;
+}
+
+.nav__link-1 {
+  background-color: #0134b7b8;
+  color: #fff;
+}
+.nav__link-2 {
+  border: 1px solid #0134b7b8;
+  color: #666;
+}
+.hero__section {
+    width: 90%;
+  padding: 2rem 0 2rem 2.5rem;
+  margin: 2rem auto;
+  display: flex;
+  gap: 10rem;
+}
+.hero__content {
+  width: 50%;
+}
+.hero__title {
+  font-size: 4rem;
+}
+.hero__text {
+  margin: 2rem 0;
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.hero__btn {
+  font-size: 1.1rem;
+  text-align: left;
+  padding: 0.6rem 5rem 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  background: #0134b7b8;
+}
+.profile {
+}
+.profile__image {
+  width: 60%;
+}
+.update__section {
+  margin-top: 3rem;
+  padding-left: 2rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  background-color: #eac1100f;
+}
+.update__image-box {
+}
+.update__image {
+  /* width: 100%; */
+}
+.update__text {
+  width: 40%;
+}
+.update__text-quote {
+  font-size: 8rem;
+  color: #0e0e0e2e;
+}
+.update__desc {
+  /* font-size: 0.9rem; */
+  line-height: 1.2rem;
+  color: #666;
+}
+.update__title-box {
+  /* margin-top: 3rem; */
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+}
+.update__title {
+  width: 65%;
+  font-weight: 600;
+  color: #0134b7b8;
+  font-size: 1.2rem;
+}
+.info__section {
+  width: 80%;
+  padding: 2rem 0 1rem 2rem;
+  margin-top: 4.5rem;
+  /* margin-left: 3rem; */
+  display: flex;
+  justify-content: space-between;
+}
+.info__section div {
+  display: flex;
+  gap: 1rem;
+  margin-left: 10rem;
+}
+.info__section p {
+  display: flex;
+  flex-direction: column;
+  color: #444;
+  row-gap: 0.3rem;
+  font-size: 0.8rem;
+}
+.info__section span {
+  color: #666;
+  font-size: 0.7rem;
+}
+.footer {
+  width: 70%;
+  padding: 2rem;
+  /* margin: 1rem 3.5rem 0 3.5rem; */
+  margin: 1rem 2rem 3rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__link {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.4rem;
+}
+.footer__logo {
+  font-size: 1.4rem;
+  color: #0134b7b8;
+  display: flex;
+  align-items: center;
+  column-gap: 0.9rem;
+}
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}
+.footer__icon {
+  width: 18px;
+  height: 20px;
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: 1px solid #0134b7b8;
+}
+
+.footer__title {
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+  color: rgb(0, 163, 71);
+}
+
+.footer__update {
+}
+.footer__update p {
+  font-size: 0.8rem;
+  padding-top: 0.6rem;
+  color: #0e0e0eaf;
+}
