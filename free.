@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<div class="flex-container">
+    <div style="order: 2;align-self: center;">
+        <h3>title 1</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div style="order: 3;">
+        <h3>title 2</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div style="order: 1;">
+        <h3>title 3</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div style="order: 4;">
+        <h3>title 4</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div>
+        <h3>title 5</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div>
+        <h3>title 6</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div>
+        <h3>title 7</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+    <div>
+        <h3>title 8</h3>
+        <p>god is awesome god he reign from heaven and earth with wisdom knowledege and power god is a awesome god</p>
+    </div>
+</div>
+</body>
+</html>
+
+.flex-container{
+    display: flex;
+    background-color: darkgray;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+    height: 350px;
+    align-content:stretch;
+    align-items: flex-end;
+}
+
+.flex-container >div{
+    background-color: gray;
+    margin: 10px;
+    padding: 15px;
+    font-size: 14px;
+    width: 200px;
+}
