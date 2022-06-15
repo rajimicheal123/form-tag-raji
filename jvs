@@ -1,0 +1,36 @@
+ let username = "sail virtual tech program";// declared abd intialized
+
+ let nameUserAdressPlace="johnson" //declared only
+
+// man2 ="john doe"; // intialized only
+
+// laptop ="hp elitebook" ;// declared and intialised
+
+laptop= "hp"; //declared and intialised
+
+// document.getElementById("p1").innerHTML = $name_user;
+//  document.getElementById("p2").innerHTML = name_user;
+// // document.getElementById("p3").innerHTML = laptop; 
+
+
+
+    var $user1= "james";
+    let $user2= "mary";
+    const $user3= "mason";
+
+    $user1="45";
+    $user2="hp";
+
+
+document.getElementById("p1").innerHTML = $user1;
+document.getElementById("p2").innerHTML = $user2;
+document.getElementById("p3").innerHTML = $user3;
+
+
+// afunc()
+// {
+//  document.getElementById("p1").innerHTML = $user1;
+// document.getElementById("p2").innerHTML = $user2;
+// document.getElementById("p3").innerHTML = $user3;
+
+// }
