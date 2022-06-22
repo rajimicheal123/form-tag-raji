@@ -1,0 +1,94 @@
+{
+    var $user1="john"
+    var $user2="james"
+}
+
+// for the functional scope:function is being used
+
+function tutorialFunction(){
+    var $user3= 45;
+    let $user4= "string";
+
+    document.write($user3)
+    document.write($user4)
+}
+
+tutorialFunction();
+
+// //primitive data types
+
+// //string Data type
+// let name1 ="sail virtual";//string vlue under STRING DATA TYPE
+// document.getElementById("p1").innerHTML = name1
+
+// //number data type
+// // integer or whole number e.g 12, 20, 2022
+// //float or decimal e.g 45.56, 0.01 165.56
+
+
+
+// let name2 = 2100.01;
+// document.getElementById("p2").innerHTML = name2;
+
+
+// //boolean data type
+// let name3 = false;
+// document.getElementById("head3").innerHTML = name3;
+
+// //undefined data type
+// let name4=undefined
+// document.getElementById("head4").innerHTML = name4;
+
+// //null data type
+// let name5 = null;
+// document.getElementById("head5").innerHTML = name5;
+
+const $name1 = {
+    country:"Nigeria",
+    state:"lagos",
+    population: 220000,
+    ethnicity:"major yoruba",
+    info : function(){
+        return this.state + " " +  this.country
+
+    }
+    }
+    document.getElementById("head5").innerHTML = $name1.info()
+    $name1.info()
+    // document.getElementById("p1").innerHTML =  Eti_osa["country"]
+
+    // //deletion
+    // delete Eti_osa.country
+
+    // // document.getElementById("p1").innerHTML = Eti_osa["country"];
+    // //addition
+
+    // Eti_osa.state = "lagos west";
+    // document.getElementById("p1").innerHTML = Eti_osa.state;
+
+
+
+
+    //object construction
+
+const houston = new Object();
+houston.country = "America",
+houston.state = "texas",
+houston.population = 2500000,
+houston.ethnicity ="Mixed Races";
+
+document.getElementById("p2").innerHTML = houston["state"];
+
+//prototype object
+
+const atlanta = {
+country:"America",
+state:"georgia",
+population: 2300000,
+ethnicity:"Major black race"
+}
+
+const W_dc= Object.create(atlanta)
+
+document.getElementById("head3").innerHTML = W_dc.ethnicity;
+
