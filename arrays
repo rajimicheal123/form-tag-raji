@@ -1,0 +1,48 @@
+
+//creating an array with the array literal syntax
+
+const country = ["brazil", "spain", "germany" , 2002, 2100, 45.56, 3.56, 0.01, true,false, 67, 45, 4, 53, 67888888, 8899, 0000, 123444,346666,]
+
+// Add elements to the array
+// country.push("Algeria")
+// country.unshift("united kingdom")
+// country[2] ="algeria"
+// document.write(country)
+
+
+//removing elements
+//  let x = country.shift()
+// // country.shift()
+// document.write(x);
+
+// delete country[2]
+// country.pop()
+// country.pop()
+document.write(country[country.length-1])
+document.write(country[20-1])
+
+const fruits1 = ["banana", "mango", "apple", "walnut", "grape", "coconut", "melon", "watermelon", "nuts",]
+
+let arranged = fruits1
+
+const fruits2 = ["coconut", "melon", "watermelon", "nuts",]
+
+const nations = ["nigeria", "kenya", "rwanda", "mali",]
+
+//.slice()
+
+let sliced = fruits1.slice(3,8) //3-7
+document.write(sliced)
+
+//.concat()
+
+
+//document.write(fruits1.concat(fruits2))
+
+
+ const  x = fruits1.toString()
+// document.write(x) 
+
+// let y = "sail virtual tech program"
+// const arr2 = y.split("")
+// document.write(arr2[1])
