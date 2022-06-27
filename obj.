@@ -1,0 +1,61 @@
+// //object and string concatenation
+
+// const info = {first_name:"john", last_name:"doe", age:44, country:"america"}
+// document.getElementById("p1").innerHTML = "My name is" +
+// info.first_name + info.last_name + "and i am " + info.age + "years old from" + info.country
+
+// //Nested Object
+
+// const info2 = {player: "cristiano ronaldo", 
+// age:37,
+//  clubs_played:{
+//      spain:{
+//           shirt_no:[7,9], teamates:["benzema","bale"]
+//         },
+// England:"machester_united", 
+// italy:"juventus"}
+// }
+
+// document.getElementById("p2").innerHTML = info2.clubs_played.spain . teamates
+
+// const employee = {
+//     employee1:{first_name:"john",last_name:"jonathan", sex:"female", position:"Network technology"},
+//     employee2:{first_name:"agboola",last_name:"praise", sex:"female", position:"sales accountant"},
+//     employee3:{first_name:"fimidara",last_name:"aadigun", sex:"female",position:"head of marketing"},
+//     employee4:{first_name:"williams",last_name:"anjola", sex:"female", position:"messenger"},
+//     employee5:{first_name:"kenneth",last_name:"okonko", sex:"female", position:"beautician"},
+// }
+
+
+
+// document.getElementById("p3").innerHTML = employee.employee4.first_name + employee.employee4.last_name
+
+// //other object displays
+
+// let x = Object.values(info)  
+// document.getElementById("p4").innerHTML = x;
+
+
+
+// //JSON. stringify function
+
+// let y =JSON.stringify(info)
+// document.getElementById("p5").innerHTML =y;
+
+
+// ///ARRAYS
+
+// const animals = ["jaguar", "dog", "lion", "zebra", "cat"]
+// // document.getElementById("p6").innerHTML =
+// "mans best friend is a" + animals[1] + " the" + animals[2] +
+//  "is the king of the jungle and he loves eating" + animals [3] +
+// " . The" + animals[0] + "and the " + animals[4] +"are in the same family."
+
+//  const animals2 = [
+// ["jaguar","lion", "cow", "goat",],
+//  ["parrots","cows", "vultures", "hawks"],
+//  ["sharks","whales", "dolphins"],
+// ]
+// document.getElementById("p6").innerHTML = animals2[0]
+
+
